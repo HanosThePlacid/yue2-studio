@@ -117,3 +117,8 @@ See [`app/README.md`](app/README.md) for architecture notes.
 - [audio.cpp](https://github.com/0xShug0/audio.cpp), the inference engine (Apache-2.0)
 - [YuE](https://github.com/multimodal-art-projection/YuE) by M-A-P / HKUST, the music model. GGUF weights come from
   [audio-cpp/Yue2-3B-GGUF](https://huggingface.co/audio-cpp/Yue2-3B-GGUF). Check the model card for license and usage terms before using the output commercially.
+
+## License
+
+YuE2 Studio is released under the [MIT License](LICENSE). This covers the app code only, not the
+audio.cpp engine or the YuE2 model weights, which have their own licenses (see above).
