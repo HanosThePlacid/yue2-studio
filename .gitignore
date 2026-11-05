@@ -1,0 +1,43 @@
+# ---- Local config / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Generated music & user data (never commit) ----
+/output/
+/output_final/
+/data/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# ---- Engine + model weights (downloaded/built by install scripts) ----
+/engine/
+/models/
+*.gguf
+*.safetensors
+
+# ---- Personal content ----
+# Your own song prompts: only the shipped examples are tracked.
+/song-prompts/*
+!/song-prompts/examples/
+/song-title-ideas/
+/christian-worship-music-research/
+/magyarverselés/
+
+# ---- Tooling ----
+node_modules/
+.claude/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
+.pytest_cache/
+__pycache__/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
